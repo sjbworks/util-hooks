@@ -29,6 +29,7 @@ export const NavigateGuard = () => {
       <h2>useNavigateGuard</h2>
       <form onSubmit={handleSubmit}>
         <div>
+          <div>Submit前にページを移動・更新すると警告が出ます。</div>
           <label htmlFor="name">Name:</label>
           <input
             type="text"
